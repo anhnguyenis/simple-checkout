@@ -1,3 +1,3 @@
-class Item
-
-end
+# class Checkout
+#
+# end
