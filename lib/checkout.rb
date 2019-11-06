@@ -1,3 +1,3 @@
-# class Checkout
-#
-# end
+class Checkout
+
+end
