@@ -1,3 +1,4 @@
+require 'checkout'
 
 describe Item do
   it 'creates an instance of item' do
