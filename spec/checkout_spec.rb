@@ -6,4 +6,8 @@ describe Checkout do
     expect(checkout).to be_instance_of(Checkout)
   end
 
+  it 'tells me how much an item costs' do
+    checkout = Checkout.new
+    expect(checkout.item).to eq(1)
+  end
 end
