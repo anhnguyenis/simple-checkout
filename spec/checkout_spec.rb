@@ -8,6 +8,6 @@ describe Checkout do
 
   it 'tells me how much an item costs' do
     checkout = Checkout.new
-    expect(checkout.item).to eq(1)
+    expect(checkout.price).to eq(1)
   end
 end
