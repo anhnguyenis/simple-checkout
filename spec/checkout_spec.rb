@@ -5,9 +5,9 @@ describe Checkout do
     checkout = Checkout.new
     expect(checkout).to be_instance_of(Checkout)
   end
-#
-#   it 'tells me how much an item costs' do
-#     checkout = Checkout.new
-#     expect(checkout.price(item)).to eq(1)
-#   end
+
+ it 'responds to total' do
+   checkout = Checkout.new
+   expect(checkout).to respond_to(:total)
+ end
 end

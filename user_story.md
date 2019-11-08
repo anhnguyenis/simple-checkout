@@ -4,8 +4,6 @@ So I know how much an item costs
 I would like to be able to see its price
 ```
 
-shopper
-checkout(item)
 item.price
 
 ```
@@ -32,3 +30,8 @@ I would like to see all prices correctly formatted (£xx.xx)
 ```
 item
 price
+
+
+milk = £1
+bread = £50p
+cheese = £2

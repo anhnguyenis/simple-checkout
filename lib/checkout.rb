@@ -1,5 +1,5 @@
+require_relative 'item'
+
 class Checkout
-  def price
-    1
-  end
+
 end
