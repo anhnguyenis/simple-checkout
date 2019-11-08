@@ -16,8 +16,9 @@ describe Item do
     expect(item.price).to eq(1)
   end
 
-  it 'scans an item' do
+  it 'scans an item and returns price' do
     item = Item.new
-    expect(item). to respond_to(:scan)
+    expect(item).to respond_to(:scan).with(2).argument
   end
+
 end
