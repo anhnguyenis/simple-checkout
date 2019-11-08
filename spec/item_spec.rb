@@ -11,6 +11,7 @@ describe Item do
     expect(item.price).to eq(1)
   end
 
+
   it 'scans an item' do
     item = Item.new
     expect(item).to respond_to(:scan)
@@ -20,4 +21,5 @@ describe Item do
     item = Item.new
     expect(item.scan).to eq(1)
   end
+
 end

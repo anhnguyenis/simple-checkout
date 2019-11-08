@@ -10,4 +10,10 @@ describe Checkout do
    checkout = Checkout.new
    expect(checkout).to respond_to(:total)
  end
+
+ it 'shows the total of all scanned items' do
+   item = subject.total
+   expect(item.price).to eq(1)
+ end
+
 end
